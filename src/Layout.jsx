@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 
 function Layout() {
     return (
-        <>
-            <header>
+        <div className="min-h-screen bg-slate-900">
+            <header className="pt-6">
                 <NavBar/>
             </header>
             <main>
@@ -15,7 +15,7 @@ function Layout() {
             <footer>
                 <Footer/>
             </footer>
-        </>
+        </div>
     );
 }
 
