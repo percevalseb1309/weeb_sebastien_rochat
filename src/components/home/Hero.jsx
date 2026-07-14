@@ -1,4 +1,4 @@
-import weebApp from "../assets/weeb-app.svg";
+import weebApp from "../../assets/weeb-app.svg";
 
 function Hero() {
     return (
