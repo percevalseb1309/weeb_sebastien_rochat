@@ -5,14 +5,14 @@ import Footer from "./components/Footer";
 
 function Layout() {
     return (
-        <div className="min-h-screen bg-slate-900">
+        <div className="min-h-screen flex flex-col bg-slate-900">
             <header className="pt-6">
                 <NavBar/>
             </header>
-            <main>
+            <main className="flex-1">
                 <Outlet/>
             </main>
-            <footer>
+            <footer className="bg-gray-50">
                 <Footer/>
             </footer>
         </div>
