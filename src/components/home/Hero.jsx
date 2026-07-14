@@ -2,7 +2,7 @@ import weebApp from "../../assets/weeb-app.svg";
 
 function Hero() {
     return (
-        <div className="container mx-auto flex flex-col items-center text-center px-6 py-20 text-white">
+        <div className="container mx-auto flex flex-col items-center text-center px-6 pt-20 pb-10 text-white">
             <h1 className="text-5xl font-bold text-white leading-tight">
                 Explorez le <span className="font-light text-violet-500">Web</span> sous toutes ses <span className="underline decoration-violet-500 underline-offset-8">facettes</span>
             </h1>
