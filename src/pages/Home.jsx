@@ -1,17 +1,17 @@
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Resources from "../components/Resources";
+import Hero from "../components/home/Hero";
+import Clients from "../components/home/Clients";
+import Resources from "../components/home/Resources";
+import News from "../components/home/News";
 
 function Home() {
-  return (
-    <div>
-        <NavBar/>
-        <Hero/>
-        <Resources/>
-        <Footer/>
-    </div>
-  );
+    return (
+        <div>
+            <Hero/>
+            <Clients/>
+            <Resources/>
+            <News/>
+        </div>
+    );
 }
 
 export default Home;
