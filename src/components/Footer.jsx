@@ -4,7 +4,7 @@ import { FaYoutube, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react
 function Footer() {
     return (
         <div className="container mx-auto">
-            <div className="m-10 grid grid-cols-5 items-baseline gap-5">
+            <div className="mx-20 my-10 md:m-10 grid md:grid-cols-5 items-baseline gap-5">
                 <section>
                     <Link to="/" className="text-3xl font-bold hover:text-violet-500 transition duration-200">weeb</Link>
                 </section>
@@ -48,7 +48,7 @@ function Footer() {
 
             <hr className="border-gray-200" />
 
-            <div className="flex justify-between items-center my-10">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 my-10">
                 <p className="text-gray-700">&copy; 2025 Weeb. Inc. All rights reserved.</p>
                 <div className="flex gap-5 text-xl">
                     <a href="#" aria-label="YouTube" className="hover:text-violet-500 transition duration-200">

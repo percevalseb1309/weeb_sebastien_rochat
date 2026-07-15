@@ -2,12 +2,12 @@ import weebApp from "../../assets/weeb-app.svg";
 
 function Resources() {
     return (
-        <div className="container mx-auto flex items-center justify-between gap-16 px-6 py-10">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16 px-6 py-10">
             <div className="max-w-xl text-white">
-                <p className="font-semibold uppercase tracking-wider">
+                <p className="text-center font-semibold uppercase tracking-wider">
                     Des ressources pour tous les niveaux
                 </p>
-                <h2 className="mt-4 text-5xl font-bold leading-tight">
+                <h2 className="mt-4 text-4xl md:text-5xl font-bold leading-tight">
                     <span className="text-violet-500">Apprenez</span> et <span className="text-violet-500">progressez</span>
                 </h2>
                 <p className="mt-4 text-sm">
