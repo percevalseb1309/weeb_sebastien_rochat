@@ -3,10 +3,10 @@ import { LuMonitorSmartphone, LuZoomIn, LuShell, LuWaves, LuMartini } from "reac
 function Clients() {
     return (
         <div className="container mx-auto flex flex-col items-center text-center px-6 py-10 text-white">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold">
                 Ils nous font confiance
             </h2>
-            <div className="mt-16 flex items-center gap-24">
+            <div className="mt-8 md:mt-16 flex flex-col items-start md:flex-row md:items-center md:gap-24">
                 <a href="#" className="flex items-center gap-2 text-xl hover:text-violet-500 transition duration-200">
                     <LuMonitorSmartphone/>
                     <span className="font-semibold">SmartFinder</span>
