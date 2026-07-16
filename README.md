@@ -48,7 +48,8 @@ Les formulaires (Contact, Login) ne sont pas fonctionnels à ce stade du projet 
 
 - **Couleurs légèrement éclaircies** par rapport à la maquette, pour améliorer la lisibilité.
 - **"Se connecter"** sur la page Contact remplacé par **Login / Join Now** dans la Navbar (imprécision de la maquette).
-- **About us** : lien mort pour l'instant, la page n'étant pas prévue pour cette première semaine développement.
+- **About us** : lien commenté dans le cose pour l'instant, la page n'étant pas prévue pour cette première semaine développement.
+- **Créer un compte** : lien mort, la page d'inscription n'étant pas encore développée.
 - **Logos clients** (section "Ils nous font confiance") : icônes choisies arbitrairement dans React Icons, la maquette utilisant des icônes fictives impossibles à reproduire à l'identique.
 - **Images** (Hero, Resources, News) : exportées directement depuis Figma en SVG.
 - **Formulaires** (Contact, Login) : utilisent uniquement des `placeholder` comme repère visuel, sans `<label>` associé — accessibilité perfectible.
